@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+button{
+    padding: 0.625rem 1.5rem;
+    height: min-content;
+
+    background-color: #FF4D40;
+    font-weight: 700;
+    color: white;
+    border: none;
+    font-size: 16px;
+    border-radius: 0.5rem;
+}
+
+.button2{
+    padding: 0.5rem;
+    
+    background-color: #FFEEEC;
+    color: #FF4D40;
+    border-radius: 0.5rem;
+}
+
+.barra{
+    height: 24px;
+    width: 1px;
+    background-color: #ccc;
+}
