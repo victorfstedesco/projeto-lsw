@@ -21,7 +21,7 @@ app.get('/catalogo-visual', (req, res)=>{
     res.json(catalogo); // Retorna os dados do catálogo como uma resposta json
 });
 
-// Definição de rota para filtrar os pratos
+// Definição de filtro do json pela rota
 
 app.get('/home', (req, res)=>{ 
     res.sendFile(__dirname + "/views/home.html"); 
