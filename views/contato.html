@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./css/contato.css" />
+
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/tipografia.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet"/>
+</head>
+<body>
+    <main>
+        <section class="hero">
+            <header>
+                <img src="./assets/logo.svg" alt="">
+                <nav>
+                    <ul>
+                        <li onclick="r_home()">Home</li>
+                        <li onclick="r_dashboards()">Mais vendidos</li>
+                        <li onclick="r_contato()">Contato</li>
+                    </ul>
+                </nav>
+                <button onclick="r_sair()">Sair</button>
+            </header>
+            <div class="cta">
+                <h2 style="text-align: center;">Entre em contato com a gente!</h2>
+            </div>
+        </section>
+        <section class="content">
+                <div class="contact-form">
+                    <h2>Entre em Contato</h2>
+                    <form action="/enviar-mensagem" method="POST">
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email" required>
+            
+                        <label for="mensagem">Mensagem:</label>
+                        <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+            
+                        <button type="submit">Enviar Mensagem</button>
+                    </form>
+                </div>
+        </section>
+    </main>
+    <script src="./js/contato.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>

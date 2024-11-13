@@ -3,44 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home</title>
 
-    <link rel="stylesheet" href="./home.css">
+    
+    <script src="./js/home.js"></script>
+    <script src="./js/main.js"></script>
 
-    <link rel="stylesheet" href="../main.css">
-    <link rel="stylesheet" href="../tipografia.css">
+    <link rel="stylesheet" href="./css/home.css">
+
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/tipografia.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-
 </head>
 <body>
     <main>
         <section class="hero">
             <header>
-                <img src="../assets/logo.svg" alt="">
+                <img src="./assets/logo.svg" alt="">
                 <nav>
-                    <li>Home</li>
-                    <li>Mais vendidos</li>
-                    <li>Contato</li>
+                    <ul>
+                        <li onclick="r_home()">Home</li>
+                        <li onclick="r_dashboards()">Mais vendidos</li>
+                        <li onclick="r_contato()">Contato</li>
+                    </ul>
                 </nav>
-                <button>Sair</button>
+                <button onclick="r_sair()">Sair</button>
             </header>
             <div class="cta">
                 <h2 style="text-align: center;">Explore os melhores alimentos feitos por nossos chefes profissionais</h2>
                 <p>O PFA é um ótimo lugar para escolher as suas refeições.</p>
-                <button>Saiba mais</button>
+                <button onclick="r_saibamais()">Saiba mais</button>
             </div>
         </section>
         <section class="content">
             <div class="filter">
                 <h2 style="font-size: 28px;">Nossas comidas</h2>
                 <div class="barra"></div>
-                <h6 class="button2">Entradas</h6>
-                <h6 class="button2">Prato principal</h6>
-                <h6 class="button2">Sobremesas</h6>
+                <h6 class="button2" onclick="getEntradas()">Entradas</h6>
+                <h6 class="button2" onclick="getPratoprincipal()">Prato principal</h6>
+                <h6 class="button2" onclick="sobremesa()">Sobremesas</h6>
             </div>
-            <div class="produtos-container">
+            <div id="produtos-container">
                 <!--<div class="card">
                     <div class="sobre">
                         <h4>Espaguete Coco Bambu</h4>

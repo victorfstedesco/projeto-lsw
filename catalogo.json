@@ -1,0 +1,141 @@
+[
+    {
+        "id": "1",
+        "imagem": "https://tagmeimages.azureedge.net/?q=90&url=https://tagmepub.azureedge.net/pubimg/thumbs/MenuItem/0b86ef30-f35b-11ee-bca4-6b665f53f9f1.jpg&output=jpg",
+        "titulo": "Camarão Siciliano",
+        "descricao": "6 camarões recheados com queijo catupiry e empanados, servidos sobre risoto de limão siciliano, decorado com salsinha. Acompanha batata palha.",
+        "preco": "R$ 140,00",
+        "serve": "1-2 Pessoas",
+        "tipo": "prato-principal"
+    },
+
+    {
+        "id": "2",
+        "imagem": "https://tagmeimages.azureedge.net/?q=90&url=https://tagmepub.azureedge.net/pubimg/thumbs/MenuItem/ce58de00-102c-11ee-8bfc-750600b1fd8a.jpg&output=jpg",
+        "titulo": "Espaguete Coco Bambu",
+        "descricao": "380g de camarões com espaguete italiano, ervilhas, presunto e molho branco. gratinado com farta camada de queijos muçarela e parmesão.",
+        "preco": "R$ 255,00",
+        "serve": "3-4 Pessoas",
+        "tipo": "prato-principal"
+    },
+
+    {
+        "id": "3",
+        "imagem": "https://tagmeimages.azureedge.net/?q=90&url=https://tagmepub.azureedge.net/pubimg/thumbs/MenuItem/94e95820-d26e-11ee-b453-139dee7724be.jpg&output=jpg",
+        "titulo": "Camarão Coco Brasil",
+        "descricao": "18 camarões empanados e recheados com catupiry, sobre um cremoso arroz de moqueca comcamarõees e coentro, coberto com batata palha. acompanha farofa de panko com bacon e alhoporó.",
+        "preco": "R$ 362,00",
+        "serve": "4-6 Pessoas",
+        "tipo": "prato-principal"
+    },
+
+    {
+        "id": "4",
+        "imagem": "https://tagmeimages.azureedge.net/?q=90&url=https://tagmepub.azureedge.net/pubimg/thumbs/MenuItem/5bd834e0-0f8f-11ee-aa35-4385473278e5.jpg&output=jpg",
+        "titulo": "Entradinha Camarão Crocante",
+        "descricao": "Camarões empanados com coco. acompanha mango chutney.",
+        "preco": "R$ 42,00",
+        "serve": "1-2 Pessoas",
+        "tipo": "entrada"
+    },
+
+    {
+        "id": "5",
+        "imagem": "https://tagmeimages.azureedge.net/?q=90&url=https://tagmepub.azureedge.net/pubimg/thumbs/MenuItem/dca528d0-0980-11ef-a7eb-b1e48c873f2a.jpg&output=jpg",
+        "titulo": "Entradinha Isca De Peixe",
+        "descricao": "130g de iscas de peixe à milanesa com gergelim e molho tártaro.",
+        "preco": "R$ 62,00",
+        "serve": "1-2 Pessoas",
+        "tipo": "entrada"
+    },
+
+    {
+        "id": "6",
+        "imagem": "https://tagmeimages.azureedge.net/?q=90&url=https://tagmepub.azureedge.net/pubimg/thumbs/MenuItem/b7ea1c90-0f8e-11ee-abce-3fda0a579d06.jpg&output=jpg",
+        "titulo": "Entradinha Camarão No Azeite De Tomate Seco",
+        "descricao": "Camarões refogados no azeite com cebola alho, pasta de tomate seco, parmesão e castanha de caju. acompanha 3 pãezinhos.",
+        "preco": "R$ 99,00",
+        "serve": "1-2 Pessoas",
+        "tipo": "entrada"
+    },
+
+    {
+        "id": "7",
+        "imagem": "https://tagmeimages.azureedge.net/?q=90&url=https://tagmepub.azureedge.net/pubimg/thumbs/MenuItem/35f12e00-105f-11ee-a7e1-59b052f072c1.jpg&output=jpg",
+        "titulo": "Salada Caesar De Camarão",
+        "descricao": "Alface americana, 10 camarões refogados no azeite e ervas, parmesão ralado, molho caesar e croûtons. servida na casquinha de pizza.",
+        "preco": "R$ 71,00",
+        "serve": "1 Pessoa",
+        "tipo": "entrada"
+    },
+
+    {
+        "id": "8",
+        "imagem": "https://tagmeimages.azureedge.net/?q=90&url=https://tagmepub.azureedge.net/pubimg/thumbs/MenuItem/2d790760-103d-11ee-be21-9db597470738.jpg&output=jpg",
+        "titulo": "Lagosta Grelhada",
+        "descricao": "400g de lagosta grelhada, alcaparras e salsinha. acompanha arroz de alho poró e batatas ao vapor.",
+        "preco": "R$ 291,00",
+        "serve": "1-2 Pessoas",
+        "tipo": "prato-principal"
+    },
+
+    {
+        "id": "9",
+        "imagem": "https://tagmeimages.azureedge.net/?q=90&url=https://tagmepub.azureedge.net/pubimg/thumbs/MenuItem/af6e1cf0-103e-11ee-be21-9db597470738.jpg&output=jpg",
+        "titulo": "Bacalhau Com Natas",
+        "descricao": "Lombo de bacalhau em lascas sobre fatias de batata inglesa com molho da casa à base de nata. gratinado com queijo parmesão e muçarela. acompanha arroz com brócolis e farofa de ovos.",
+        "preco": "R$ 293,00",
+        "serve": "2 Pessoas",
+        "tipo": "prato-principal"
+    },
+
+    {
+        "id": "10",
+        "imagem": "https://tagmeimages.azureedge.net/?q=90&url=https://tagmepub.azureedge.net/pubimg/thumbs/MenuItem/650d06b0-6793-11ee-8123-0fcc262027e0.jpg&output=jpg",
+        "titulo": "Pequena Torta De Maçã",
+        "descricao": "Fatia de torta cremosa recheada e coberta com tirinhas de maçã caramelizada. servida quente com sorvete de creme salpicado com canela em pó.",
+        "preco": "R$ 27,00",
+        "serve": "1 Pessoa",
+        "tipo": "sobremesa"
+    },
+
+    {
+        "id": "11",
+        "imagem": "https://tagmeimages.azureedge.net/?q=90&url=https://tagmepub.azureedge.net/pubimg/thumbs/MenuItem/73e664f0-3566-11ef-9809-f939d5d2aa51.jpg&output=jpg",
+        "titulo": "Gelato De Pistache",
+        "descricao": "Delicioso e cremoso Gelato Italiano de Pistache com raspas de pistache. Fabricação própria Coco Bambu.",
+        "preco": "R$ 34,00",
+        "serve": "1-2 Pessoas",
+        "tipo": "sobremesa"
+    },
+
+    {
+        "id": "12",
+        "imagem": "https://tagmeimages.azureedge.net/?q=90&url=https://tagmepub.azureedge.net/pubimg/thumbs/MenuItem/ebb1aa40-1063-11ee-a7e1-59b052f072c1.jpg&output=jpg",
+        "titulo": "Petit Gateau De Chocolate",
+        "descricao": "Bolinho quente de chocolate. acompanha sorvete de creme.",
+        "preco": "R$ 47,00",
+        "serve": "1 Pessoa",
+        "tipo": "sobremesa"
+    },
+
+    {
+        "id": "13",
+        "imagem": "https://tagmeimages.azureedge.net/?q=90&url=https://tagmepub.azureedge.net/pubimg/thumbs/MenuItem/49aa6870-1065-11ee-8271-91feaeee9578.jpg&output=jpg",
+        "titulo": "Brownie Gigante",
+        "descricao": "Brownie gigante para dividir com toda a galera.",
+        "preco": "R$ 288,00",
+        "serve": "25 Pessoas",
+        "tipo": "sobremesa"
+    },
+    
+    {
+        "id": "14",
+        "imagem": "https://tagmeimages.azureedge.net/?q=90&url=https://tagmepub.azureedge.net/pubimg/thumbs/MenuItem/0f2c9ca0-1064-11ee-8bfc-750600b1fd8a.jpg&output=jpg",
+        "titulo": "Pudim De Leite (O Melhor Do Mundo)",
+        "descricao": "Com doce caseiro de ameixas pretas em calda.",
+        "preco": "R$ 30,00",
+        "serve": "1 Pessoa",
+        "tipo": "sobremesa"
+    }
+]

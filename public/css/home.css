@@ -34,7 +34,7 @@ header{
 
     padding: 1.5rem 0rem;
 
-    & nav{
+    & ul{
         display: flex;
 
         gap: 3rem;
@@ -80,7 +80,7 @@ header{
 
 /*--------------SEGUNDA PARTE--------------*/
 
-.produtos-container{
+#produtos-container{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -114,15 +114,28 @@ header{
 
             & .tamanho{
                 display: flex;
-                gap: 1rem;
+                width: 10vw;
+                align-items: flex-end;
+                justify-content: space-between;
             }
         }
     }
 
     & .produto-img{
-        width: fit-content;
+        width: min-content;
         border-radius: 1rem;
+
+        width: 300px;
     }
+}
+
+.rodape h6{
+    padding: 8px;
+    
+    border-radius: 1rem;
+    font-size: 12px;
+    background-color: #FFEEEC;
+    color: #FF4D40;
 }
 
 /* alterações de texto */

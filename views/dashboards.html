@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./css/dashboards.css" />
+
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/tipografia.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet"/>
+  </head>
+  <body>
+    <main>
+        <section class="hero">
+            <header>
+                <img src="./assets/logo.svg" alt="">
+                <nav>
+                    <ul>
+                        <li onclick="r_home()">Home</li>
+                        <li onclick="r_dashboards()">Mais vendidos</li>
+                        <li onclick="r_contato()">Contato</li>
+                    </ul>
+                </nav>
+                <button onclick="r_sair()">Sair</button>
+            </header>
+            <div class="cta">
+                <h2 style="text-align: center;">Dê uma olhada nos nossos gráficos!</h2>
+            </div>
+        </section>
+      <section class="content">
+        <div>
+            <h2 style="font-size: 28px;">Dashboards dos produtos</h2>
+        </div>
+          <div class="graficos">
+              <div class="primeiro-grafico">
+                <h3 class="button2">Pratos Principais mais escolhidos</h3>
+                <canvas id="pizza" width="400" height="400"></canvas>
+              </div>
+              <div class="segundo-grafico">
+                <h3 class="button2">Sobremesas mais escolhidas</h3>
+                <canvas id="barra" width="400" height="400"></canvas>
+              </div>
+          </div>
+      </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.0/chart.min.js"></script>
+    <script src="./js/dashboards.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

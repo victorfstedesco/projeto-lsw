@@ -1,0 +1,95 @@
+main{
+    display: flex;
+    flex-direction: column;
+
+    gap: 6rem;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+
+    gap: 6rem;
+    padding: 0rem 6rem 6rem 6rem;
+
+    background-image: url(../assets/hero.png);
+    background-size:100%,100%;
+    background-repeat:no-repeat;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 1.5rem 0rem;
+
+    & ul{
+        display: flex;
+
+        gap: 3rem;
+
+        & li{
+            font-weight: 700;
+            list-style: none;
+            color: white;
+        }
+    }
+}
+
+.cta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    width: 30vw;
+    margin: 0 auto;
+    gap: 1.5rem;
+    
+    color: white;
+}
+
+/* contato */
+
+.content{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 6rem;
+}
+
+.contact-form {
+    background-color: white;
+    padding: 2rem;
+    max-width: 20vw;
+    border: 1px solid #ccc;;
+}
+.contact-form h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+.contact-form label {
+    font-size: 14px;
+    color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 1rem;
+    margin: 1rem 0rem;
+    border: 1px solid #ccc;
+
+}
+.contact-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #E74C3C;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+/* fim do contato */
