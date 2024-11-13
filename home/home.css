@@ -7,6 +7,10 @@ main{
     gap: 4rem;
 }
 
+body{
+    min-height: 100vh;
+}
+
 /* FIM DA MAIN */
 
 /* section hero */

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="image-section">
+            <img src="img/Fingerprint-rafiki (1) 1.svg" alt="Imagem tela de login">
+        </div>
+
+        <div class="form-section">
+            <img src="img/Group 2.svg" alt="Logo do Projeto Final" class="logo">
+            <h2>Faça login na sua conta</h2>
+            <form onsubmit="return login();">
+                <label for="email">E-mail:</label>
+                <input type="text" id="email" name="email" required>
+                
+                <label for="password">Senha:</label>
+                <input type="password" id="password" name="password" required>
+                
+                <button type="submit">Entrar</button>
+            </form>
+            
+            <div id="resultado" class="resultado-box">
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const usuarioCorreto = 'adm';
+        const senhaCorreta = '1234';
+      
+        function login() {
+            const email = document.getElementById('email').value.trim();
+            const senha = document.getElementById('password').value.trim();
+            const resultado = document.getElementById('resultado');
+            
+            if (email === usuarioCorreto && senha === senhaCorreta) {
+                resultado.textContent = 'Login realizado com sucesso!';
+                resultado.style.backgroundColor = 'green';
+                resultado.style.color = 'white';
+                resultado.style.padding = '10px';
+                resultado.style.borderRadius = '8px';
+                resultado.style.marginTop = '10px';
+                resultado.style.textAlign = 'center';
+                resultado.style.display = 'block';
+        
+                setTimeout(() => {
+                    window.location.href = '/home/home.html'; // Substitua com a página correta
+                }, 500);
+            } else {
+                resultado.textContent = 'E-mail ou senha incorretos!';
+                resultado.style.backgroundColor = 'red';
+                resultado.style.color = 'white';
+                resultado.style.padding = '10px';
+                resultado.style.borderRadius = '8px';
+                resultado.style.marginTop = '10px';
+                resultado.style.textAlign = 'center';
+                resultado.style.display = 'block';
+            }
+          
+            return false;
+        }
+    </script>
+</body>
+</html>
