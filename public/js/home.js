@@ -61,7 +61,7 @@ function getPratoprincipal() {
   .catch(error => console.error('Erro ao carregar os itens do catálogo:', error)); // Tratamento de erros
 }
 
-function sobremesa() {
+function getSobremesa() {
   const catalogoList = document.getElementById('produtos-container');
 
   catalogoList.innerHTML = "";
@@ -73,3 +73,17 @@ function sobremesa() {
   })
   .catch(error => console.error('Erro ao carregar os itens do catálogo:', error)); // Tratamento de erros
 }
+
+function todos() {
+  const catalogoList = document.getElementById('produtos-container');
+
+  catalogoList.innerHTML = "";
+
+  fetch('http://localhost:8080/catalogo-visual') // Função para buscar e exibir os dados do catálogo
+  .then(response => response.json()) // Convertendo a resposta para JSON
+  .then(data => { // Manipulando os dados recebidos
+    gerarHtml(data)
+  })
+  .catch(error => console.error('Erro ao carregar os itens do catálogo:', error)); // Tratamento de erros
+}
+
